@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{60da4e8b-fa1a-4484-8aab-2cd1e973bd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2b2aa780-1f81-42ec-b755-bb9ddf2f81bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreen">
+      <UniqueIdentifier>{a0a3f32c-a791-4cfd-adfe-e94f713dcd2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu">
+      <UniqueIdentifier>{bc7f3ec5-cb23-4f7b-8ffb-256e1bb781be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{46f68181-5dd8-4c15-9c2c-3ff992082615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{c383c93c-0c11-4ec2-a239-aa5d9be9ed98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreen\Both">
+      <UniqueIdentifier>{1da5604d-1753-47d1-83a9-0a2a2899d258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreen\Server">
+      <UniqueIdentifier>{aa72ca6b-e2ac-4971-8f96-add08e900206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreen\Both\GameObjects">
+      <UniqueIdentifier>{f058c8f6-6899-40f9-9e42-54ecdc8bd9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreen\Both\Packets">
+      <UniqueIdentifier>{3c0acbf9-0497-46f3-ade6-8d220edd62cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreen\Client">
+      <UniqueIdentifier>{6382fdf9-fd15-49ab-bf7a-d6ad4e78c2a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Btn.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScreen.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEntry.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManager.cpp">
+      <Filter>GameScreen\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>GameScreen\Both</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>GameScreen\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>GameScreen\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>GameScreen\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSocket.cpp">
+      <Filter>GameScreen\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitingRoomScreen.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectScreen.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerWaitingRoom.cpp">
+      <Filter>GameScreen\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerGameScreen.cpp">
+      <Filter>GameScreen\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GameScreen\Both</Filter>
+    </ClCompile>
+    <ClCompile Include="OneClientPacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeIsReadyPacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoMessagePacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="FourTilePacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="FivePlayerPacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="SixKeyPressPacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndPoint.cpp">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScreen.cpp">
+      <Filter>GameScreen\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStartArea.cpp">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceScreen.cpp">
+      <Filter>GameScreen\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreObject.cpp">
+      <Filter>GameScreen\Both</Filter>
+    </ClCompile>
+    <ClCompile Include="SevenScorePacket.cpp">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IScreen.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Btn.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScreen.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEntry.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManager.h">
+      <Filter>GameScreen\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>GameScreen\Both</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>GameScreen\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>GameScreen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSocket.h">
+      <Filter>GameScreen\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitingRoomScreen.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectScreen.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerWaitingRoom.h">
+      <Filter>GameScreen\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerGameScreen.h">
+      <Filter>GameScreen\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>GameScreen\Both</Filter>
+    </ClInclude>
+    <ClInclude Include="OneClientPacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeIsReadyPacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoMessagePacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="FourTilePacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="FivePlayerPacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="SixKeyPressPacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>GameScreen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndPoint.h">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScreen.h">
+      <Filter>GameScreen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartArea.h">
+      <Filter>GameScreen\Both\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceScreen.h">
+      <Filter>GameScreen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreObject.h">
+      <Filter>GameScreen\Both</Filter>
+    </ClInclude>
+    <ClInclude Include="SevenScorePacket.h">
+      <Filter>GameScreen\Both\Packets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

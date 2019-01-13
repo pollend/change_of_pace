@@ -1,0 +1,119 @@
+﻿Build started 4/7/2015 8:12:41 AM.
+     1>Project "F:\OldProjects\Computer\C++\CarDriving\trunk\ProjectOrbital\ProjectOrbital.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D SFML_DYNAMIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Btn.cpp Client.cpp ClientManager.cpp ConnectScreen.cpp FivePlayerPacket.cpp FourTilePacket.cpp GameEndPoint.cpp GameStartArea.cpp InterfaceScreen.cpp Main.cpp GameScreen.cpp MainMenuScreen.cpp Map.cpp OneClientPacket.cpp Player.cpp ScoreObject.cpp ScoreScreen.cpp ScreenManager.cpp Server.cpp ServerGameScreen.cpp ServerManager.cpp ServerSocket.cpp ServerWaitingRoom.cpp SevenScorePacket.cpp SixKeyPressPacket.cpp Slider.cpp TextEntry.cpp TextureManager.cpp ThreeIsReadyPacket.cpp Tile.cpp TwoMessagePacket.cpp WaitingRoomScreen.cpp
+         WaitingRoomScreen.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\waitingroomscreen.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\waitingroomscreen.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\waitingroomscreen.cpp(113): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\waitingroomscreen.cpp(121): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\waitingroomscreen.cpp(123): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         TwoMessagePacket.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\twomessagepacket.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+         Tile.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\tile.cpp(33): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         ThreeIsReadyPacket.cpp
+         TextureManager.cpp
+         TextEntry.cpp
+         Slider.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\slider.cpp(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         SixKeyPressPacket.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\sixkeypresspacket.cpp(29): warning C4101: 'lPressed' : unreferenced local variable
+         SevenScorePacket.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\sevenscorepacket.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+         ServerWaitingRoom.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\serverwaitingroom.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\serverwaitingroom.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\serverwaitingroom.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\serverwaitingroom.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+         ServerSocket.cpp
+         ServerManager.cpp
+         ServerGameScreen.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(47): warning C4258: 'x' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(36) : definition of 'x' ignored
+                 f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(29) : definition of 'x' used
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(50): warning C4258: 'x' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(36) : definition of 'x' ignored
+                 f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\servergamescreen.cpp(29) : definition of 'x' used
+         Server.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\server.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+         ScreenManager.cpp
+         ScoreScreen.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\scorescreen.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\scorescreen.cpp(37): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         ScoreObject.cpp
+         Player.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\player.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\player.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+         OneClientPacket.cpp
+         Map.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\map.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         MainMenuScreen.cpp
+         GameScreen.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\gamescreen.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\gamescreen.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\gamescreen.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\gamescreen.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\gamescreen.cpp(110): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+         InterfaceScreen.cpp
+         GameStartArea.cpp
+         GameEndPoint.cpp
+         FourTilePacket.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\fourtilepacket.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+         FivePlayerPacket.cpp
+         ConnectScreen.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\connectscreen.cpp(24): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\connectscreen.cpp(25): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         ClientManager.cpp
+     1>f:\oldprojects\computer\c++\cardriving\trunk\projectorbital\clientmanager.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+         Client.cpp
+         Btn.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OldProjects\Computer\C++\CarDriving\trunk\Debug\Momentus.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\OldProjects\Computer\C++\CarDriving\trunk\Debug\Momentus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OldProjects\Computer\C++\CarDriving\trunk\Debug\Momentus.lib" /MACHINE:X86 /PROFILE Debug\Btn.obj
+         Debug\Client.obj
+         Debug\ClientManager.obj
+         Debug\ConnectScreen.obj
+         Debug\FivePlayerPacket.obj
+         Debug\FourTilePacket.obj
+         Debug\GameEndPoint.obj
+         Debug\GameStartArea.obj
+         Debug\InterfaceScreen.obj
+         Debug\Main.obj
+         Debug\GameScreen.obj
+         Debug\MainMenuScreen.obj
+         Debug\Map.obj
+         Debug\OneClientPacket.obj
+         Debug\Player.obj
+         Debug\ScoreObject.obj
+         Debug\ScoreScreen.obj
+         Debug\ScreenManager.obj
+         Debug\Server.obj
+         Debug\ServerGameScreen.obj
+         Debug\ServerManager.obj
+         Debug\ServerSocket.obj
+         Debug\ServerWaitingRoom.obj
+         Debug\SevenScorePacket.obj
+         Debug\SixKeyPressPacket.obj
+         Debug\Slider.obj
+         Debug\TextEntry.obj
+         Debug\TextureManager.obj
+         Debug\ThreeIsReadyPacket.obj
+         Debug\Tile.obj
+         Debug\TwoMessagePacket.obj
+         Debug\WaitingRoomScreen.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>Btn.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         ProjectOrbital.vcxproj -> F:\OldProjects\Computer\C++\CarDriving\trunk\Debug\Momentus.exe
+     1>Done Building Project "F:\OldProjects\Computer\C++\CarDriving\trunk\ProjectOrbital\ProjectOrbital.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.96

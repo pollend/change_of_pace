@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4EFC0A00-650B-40C3-A5BA-7327B483E30A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ProjectOrbital</RootNamespace>
+    <ProjectName>Car</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\ThirdParty\SFML-2.0-rc\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ThirdParty\SFML-2.0-rc\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>Momentus</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\ThirdParty\SFML-2.0-rc\include;..\ThirdParty\Box2D\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ThirdParty\SFML-2.0-rc\lib;..\ThirdParty\Box2D\lib\Release;$(LibraryPath)</LibraryPath>
+    <TargetName>Momentus</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_DYNAMIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-audio-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-audio.lib;sfml-system.lib;sfml-window.lib;sfml-network.lib;sfml-main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Btn.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientManager.cpp" />
+    <ClCompile Include="ConnectScreen.cpp" />
+    <ClCompile Include="FivePlayerPacket.cpp" />
+    <ClCompile Include="FourTilePacket.cpp" />
+    <ClCompile Include="GameEndPoint.cpp" />
+    <ClCompile Include="GameStartArea.cpp" />
+    <ClCompile Include="InterfaceScreen.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="MainMenuScreen.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="OneClientPacket.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ScoreObject.cpp" />
+    <ClCompile Include="ScoreScreen.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="ServerGameScreen.cpp" />
+    <ClCompile Include="ServerManager.cpp" />
+    <ClCompile Include="ServerSocket.cpp" />
+    <ClCompile Include="ServerWaitingRoom.cpp" />
+    <ClCompile Include="SevenScorePacket.cpp" />
+    <ClCompile Include="SixKeyPressPacket.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="TextEntry.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="ThreeIsReadyPacket.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TwoMessagePacket.cpp" />
+    <ClCompile Include="WaitingRoomScreen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Btn.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientManager.h" />
+    <ClInclude Include="ConnectScreen.h" />
+    <ClInclude Include="FivePlayerPacket.h" />
+    <ClInclude Include="FourTilePacket.h" />
+    <ClInclude Include="GameEndPoint.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="GameStartArea.h" />
+    <ClInclude Include="InterfaceScreen.h" />
+    <ClInclude Include="IScreen.h" />
+    <ClInclude Include="MainMenuScreen.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="OneClientPacket.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ScoreObject.h" />
+    <ClInclude Include="ScoreScreen.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="ServerGameScreen.h" />
+    <ClInclude Include="ServerManager.h" />
+    <ClInclude Include="ServerSocket.h" />
+    <ClInclude Include="ServerWaitingRoom.h" />
+    <ClInclude Include="SevenScorePacket.h" />
+    <ClInclude Include="SixKeyPressPacket.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="TextEntry.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="ThreeIsReadyPacket.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="TwoMessagePacket.h" />
+    <ClInclude Include="WaitingRoomScreen.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
